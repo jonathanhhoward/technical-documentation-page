@@ -21,10 +21,10 @@ body {
 }
 
 #navbar header {
-    margin-top: 0;
-    padding-top: 10px;
     position: sticky;
     top: 0;
+    padding-top: 10px;
+    background-color: white;
 }
 
 #navbar h1 {
@@ -89,21 +89,21 @@ figure {
     #navbar {
         box-sizing: border-box;
         margin: 0;
-        padding: 10px;
         width: 100%;
-        height: 100px;
+        height: 90px;
+        text-align: center;
     }
 
     #navbar header {
-        position: fixed;
         padding: 0;
-        top: 10px;
-        width: 100px;
     }
 
     .main-topic {
         margin: 0;
-        padding-left: 110px;
+    }
+
+    .sub-topic {
+        padding: 0;
     }
 
     #navbar li {
@@ -111,13 +111,13 @@ figure {
     }
 
     #main-doc {
-        padding: 100px 0 0;
+        padding: 90px 0 0;
     }
 
     :target::before {
         content: "";
         display: block;
-        height: 100px;
-        margin: -100px 0 0;
+        height: 90px;
+        margin: -90px 0 0;
     }
 }
