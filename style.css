@@ -94,6 +94,13 @@ figure {
         text-align: center;
     }
 
+    :target:before {
+        content: "";
+        display: block;
+        height: 90px;
+        margin: -90px 0 0;
+    }
+
     #navbar header {
         padding: 0;
     }
@@ -112,12 +119,5 @@ figure {
 
     #main-doc {
         padding: 90px 0 0;
-    }
-
-    :target::before {
-        content: "";
-        display: block;
-        height: 90px;
-        margin: -90px 0 0;
     }
 }
