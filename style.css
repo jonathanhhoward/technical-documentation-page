@@ -96,7 +96,7 @@ figure {
         text-align: center;
     }
 
-    :target:before {
+    :target::before {
         content: "";
         display: block;
         height: 90px;
