@@ -1,2 +1,2 @@
 # technical-documentation-page
-A freeCodeCamp.org project
+A project for freeCodeCamp.
